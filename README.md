@@ -17,7 +17,7 @@ The time cost of Different NMS implementations are shown in the following table,
 | nms(our implementation based on torchvision.ops.nms) | 4.1891 ms  |
 
 
-Finally, this project give a pure cpp implemented efficient NMS which is wrote by using c++ and only depended on numpy, and use `pybind11` to exposes interface to python code.
+Finally, this project give a efficient NMS cpu a pure cpp implementation which is wrote by using c++ and only depended on numpy, and use `pybind11` to exposes interface to python code.
 
 
 ## Setup
